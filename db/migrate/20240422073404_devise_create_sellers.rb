@@ -1,5 +1,5 @@
 # frozen_string_literal: true
-
+#used to auth
 class DeviseCreateSellers < ActiveRecord::Migration[7.1]
   def change
     create_table :sellers do |t|
